@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/QA-Mechanic/ankursurothia.portfolio/static/css/main.663c0eba.css",
+    "main.js": "/QA-Mechanic/ankursurothia.portfolio/static/js/main.d5a5a941.js",
+    "static/js/453.438d9e50.chunk.js": "/QA-Mechanic/ankursurothia.portfolio/static/js/453.438d9e50.chunk.js",
+    "static/media/profile.jpg": "/QA-Mechanic/ankursurothia.portfolio/static/media/profile.c606d63b5f042f520bd1.jpg",
+    "index.html": "/QA-Mechanic/ankursurothia.portfolio/index.html",
+    "main.663c0eba.css.map": "/QA-Mechanic/ankursurothia.portfolio/static/css/main.663c0eba.css.map",
+    "main.d5a5a941.js.map": "/QA-Mechanic/ankursurothia.portfolio/static/js/main.d5a5a941.js.map",
+    "453.438d9e50.chunk.js.map": "/QA-Mechanic/ankursurothia.portfolio/static/js/453.438d9e50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.663c0eba.css",
+    "static/js/main.d5a5a941.js"
+  ]
+}
