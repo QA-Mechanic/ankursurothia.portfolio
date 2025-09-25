@@ -1,26 +1,38 @@
 import React from 'react';
+import './ProfileHeader.css';
 import profileImg from '../assets/profile.jpg';
 
 export default function ProfileHeader() {
   return (
-    <header className="profile-header">
-      <img src={profileImg} alt="Ankur Surothia" className="profile-img" />
-      <div>
-        <h1>Ankur Surothia</h1>
-        <p className="profile-title">QA Automation Specialist | SDET | Test Architect</p>
-        <p className="profile-bio">
-          🚀 Passionate about automation, API & UI testing, and building robust frameworks.<br />
-          💼 Experience with Selenium, RestAssured, Cypress, Playwright, Java, Python, JS.<br />
-          🛠️ Skilled in CI/CD, contract testing, and cloud automation.<br />
-          🌏 Based in India | Open to remote opportunities!
-        </p>
-        <div className="profile-skills">
-          <strong>Skills:</strong> Java, Python, JavaScript, Selenium, RestAssured, Cypress, Playwright, GitHub Actions, Docker
+    <div className="profile-header">
+      <div className="profile-container">
+        <img 
+          src={profileImg} 
+          alt="Ankur Surothia" 
+          className="profile-image"
+        />
+        <h1 className="profile-name">Ankur Surothia</h1>
+        <h2 className="profile-title">QA Automation Engineer</h2>
+        
+        <div className="profile-location">
+          <span>📍</span>
+          <span>London, UK</span>
         </div>
-        <div className="profile-contact">
-          <strong>Email:</strong> ankur.surothia@example.com
+        
+        <p className="profile-bio">
+          Passionate QA Automation Engineer with 6+ years of experience in building 
+          robust test frameworks and ensuring software quality. Specialized in SAP testing, 
+          API automation, and continuous integration.
+        </p>
+        
+        <div className="skills-preview">
+          <span className="skill-tag">SAP Testing</span>
+          <span className="skill-tag">Python</span>
+          <span className="skill-tag">Playwright</span>
+          <span className="skill-tag">API Testing</span>
+          <span className="skill-tag">Test Automation</span>
         </div>
       </div>
-    </header>
+    </div>
   );
 }
