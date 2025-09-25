@@ -6,7 +6,6 @@ import TestimonialsSection from './components/TestimonialsSection';
 import BlogSection from './components/BlogSection';
 import ContactSection from './components/ContactSection';
 import DownloadResumeButton from './components/DownloadResumeButton';
-import './styles.css';
 
 function App() {
   return (
