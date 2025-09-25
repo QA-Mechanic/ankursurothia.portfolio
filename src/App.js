@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'; 
 import ProfileHeader from './components/ProfileHeader';
 import ResumeSection from './components/ResumeSection';
 import PortfolioSection from './components/PortfolioSection';
