@@ -121,14 +121,12 @@ export default function ResumeSection() {
     
     "Programming Languages": ["Java", "Python", "JavaScript/TypeScript", "C#", "SpecFlow"],
     
-    "Performance Testing": ["JMeter", "Grafana - K6"],
+    "Databases & Performance Testing": ["Oracle SQL", "MySQL","JMeter", "Grafana - K6"],
     
     "DevOps & CI/CD": ["Jenkins", "GitHub", "GitLab", "Bitbucket", "Docker", "Maven", "Gradle", "Version Control System (Git)"],
     
     "Full Stack & API Tools": ["HTML", "CSS", "JavaScript", "React", "JSON", "XML", "Splunk", "TCP", "Postman", "JUnit"],
-    
-    "Databases": ["Oracle SQL", "MySQL"],
-
+  
     "Cloud & OS": ["AWS (EC2, S3, ECR, ECS & Fargate)", "Azure DevOps", "MacOS"],
 
     "Agile Methodologies": ["Scrum", "Kanban", "Sprint Planning", "Retrospectives", "Jira-Xray", "SDLC"]
