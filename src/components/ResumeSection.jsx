@@ -112,63 +112,27 @@ export default function ResumeSection() {
   ];
 
   const skills = {
-    "AI & Machine Learning": [
-        "MCP Server",
-        "Vibe Coding",
-        "Spec-Driven Development",
-        "Intelligent Self-Healing Tests",
-        "Perplexity",
-        "KIRO",
-        "VS Code - GitHub Copilot (Agentic AI)"
-    ],
-    "Programming & Full Stack": [
-        "Java",
-        "Python",
-        "JavaScript/TypeScript",
-        "C#",
-        "HTML",
-        "CSS",
-        "React",
-        "JSON",
-        "XML"
-    ],
-    "Test Automation & QA": [
-        "Playwright",
-        "Selenium WebDriver",
-        "RESTAssured",
-        "Appium",
-        "Pact Flow (PACT)",
-        "JMeter",
-        "K6 (Grafana)",
-        "Postman",
-        "JUnit",
-        "SpecFlow",
-        "API & Contract Testing",
-        "BDD (Cucumber, Gherkin)",
-        "TDD (Test-Driven Development)",
-        "Functional, Regression, Unit, Smoke & Sanity Testing"
-    ],
-    "DevOps, Cloud & Agile": [
-        "Jenkins",
-        "GitHub",
-        "GitLab",
-        "Bitbucket",
-        "Docker",
-        "Maven",
-        "Gradle",
-        "Git",
-        "AWS (EC2, S3, ECR, ECS, Fargate)",
-        "Azure DevOps",
-        "Splunk",
-        "Jira-Xray",
-        "Agile (Scrum, Kanban)",
-        "SDLC"
-    ],
-    "Databases & OS": [
-        "Oracle SQL",
-        "MySQL",
-        "MacOS"
-    ]
+    
+    "AI & ML": ["MCP Server", "Prompt Engineering", "Spec Driven Development", "Perplexity", "KIRO", "VS Code - GitHub Copilot (Agentic AI)", "Intelligent Self-Healing Tests"],
+    
+    "Test Automation Tools": ["Playwright", "Selenium WebDriver", "RESTAssured", "Appium", "Pact Flow (PACT)"],
+
+    "Testing Methodology" :["BDD (Cucumber, Gherkin)", "TDD (Test-Driven Development)","Contract Testing", "Functional Testing", "Regression Testing", "Unit Testing", "Smoke Testing", "Sanity Testing"],
+    
+    "Programming Languages": ["Java", "Python", "JavaScript/TypeScript", "C#", "SpecFlow"],
+    
+    "Performance Testing": ["JMeter", "Grafana - K6"],
+    
+    "DevOps & CI/CD": ["Jenkins", "GitHub", "GitLab", "Bitbucket", "Docker", "Maven", "Gradle", "Version Control System (Git)"],
+    
+    "Full Stack & API Tools": ["HTML", "CSS", "JavaScript", "React", "JSON", "XML", "Splunk", "TCP", "Postman", "JUnit"],
+    
+    "Databases": ["Oracle SQL", "MySQL"],
+
+    "Cloud & OS": ["AWS (EC2, S3, ECR, ECS & Fargate)", "Azure DevOps", "MacOS"],
+
+    "Agile Methodologies": ["Scrum", "Kanban", "Sprint Planning", "Retrospectives", "Jira-Xray", "SDLC"]
+
 
   };
 
