@@ -112,16 +112,64 @@ export default function ResumeSection() {
   ];
 
   const skills = {
-    "Programming Languages": ["Java", "Python", "JavaScript", "TypeScript", "C#", "Groovy"],
-    "Testing Frameworks": ["Selenium WebDriver", "RestAssured", "Cypress", "Playwright", "TestNG", "JUnit", "Pytest", "Cucumber", "SpecFlow"],
-    "DevOps & CI/CD": ["Docker", "Kubernetes", "GitHub Actions", "Jenkins", "GitLab CI", "AWS DevOps", "Azure DevOps"],
-    "API Testing": ["RestAssured", "Postman", "Newman", "Pact", "Contract Testing", "Swagger/OpenAPI", "SoapUI"],
-    "Cloud Platforms": ["AWS", "Azure", "Google Cloud Platform", "Docker Hub", "Container Registry"],
-    "Performance Testing": ["JMeter", "LoadRunner", "Gatling", "BlazeMeter", "Performance Monitoring"],
-    "Mobile Testing": ["Appium", "Espresso", "XCUITest", "Mobile Automation", "Device Testing"],
-    "Security Testing": ["OWASP", "Burp Suite", "Security Scanning", "Vulnerability Assessment", "PCI DSS"],
-    "Databases": ["MySQL", "PostgreSQL", "MongoDB", "SQL Server", "Oracle", "Redis"],
-    "Tools & Technologies": ["Git", "JIRA", "Confluence", "Maven", "Gradle", "IntelliJ IDEA", "Visual Studio Code", "Slack", "Microsoft Teams"]
+    "AI & Machine Learning": [
+        "MCP Server",
+        "Vibe Coding",
+        "Spec-Driven Development",
+        "Intelligent Self-Healing Tests",
+        "Perplexity",
+        "KIRO",
+        "VS Code - GitHub Copilot (Agentic AI)"
+    ],
+    "Programming & Full Stack": [
+        "Java",
+        "Python",
+        "JavaScript/TypeScript",
+        "C#",
+        "HTML",
+        "CSS",
+        "React",
+        "JSON",
+        "XML"
+    ],
+    "Test Automation & QA": [
+        "Playwright",
+        "Selenium WebDriver",
+        "RESTAssured",
+        "Appium",
+        "Pact Flow (PACT)",
+        "JMeter",
+        "K6 (Grafana)",
+        "Postman",
+        "JUnit",
+        "SpecFlow",
+        "API & Contract Testing",
+        "BDD (Cucumber, Gherkin)",
+        "TDD (Test-Driven Development)",
+        "Functional, Regression, Unit, Smoke & Sanity Testing"
+    ],
+    "DevOps, Cloud & Agile": [
+        "Jenkins",
+        "GitHub",
+        "GitLab",
+        "Bitbucket",
+        "Docker",
+        "Maven",
+        "Gradle",
+        "Git",
+        "AWS (EC2, S3, ECR, ECS, Fargate)",
+        "Azure DevOps",
+        "Splunk",
+        "Jira-Xray",
+        "Agile (Scrum, Kanban)",
+        "SDLC"
+    ],
+    "Databases & OS": [
+        "Oracle SQL",
+        "MySQL",
+        "MacOS"
+    ]
+
   };
 
   return (
@@ -208,8 +256,8 @@ export default function ResumeSection() {
                 <h3 className="cert-title">ISTQB® Certified Tester Foundation Level 2018 v2</h3>
                 <p className="cert-issuer">International Software Testing Qualifications Board</p>
                 <div className="cert-details">
-                  <p className="cert-candidate">Candidate Number: 200547131</p>
-                  <p className="cert-number">Certificate Number: 00581483</p>
+                  <p className="cert-candidate">Candidate No: 200547131</p>
+                  <p className="cert-number">Certificate No: 00581483</p>
                 </div>
                 <span className="cert-year">03 February 2024</span>
               </div>
