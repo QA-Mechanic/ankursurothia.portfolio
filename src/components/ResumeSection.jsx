@@ -113,21 +113,21 @@ export default function ResumeSection() {
 
   const skills = {
     
-    "AI & ML": ["MCP Server", "Prompt Engineering", "Spec Driven Development", "Perplexity", "KIRO", "VS Code - GitHub Copilot (Agentic AI)", "Intelligent Self-Healing Tests"],
+    "AI & ML": ["MCP Server", "Prompt Engineering", "Spec Driven Development", "Perplexity", "Amazon - KIRO", "VS Code - GitHub Copilot (Agentic AI)", "Intelligent Self-Healing Tests"],
     
     "Test Automation Tools": ["Playwright", "Selenium WebDriver", "RESTAssured", "Appium", "Pact Flow (PACT)"],
 
-    "Testing Methodology" :["BDD (Cucumber, Gherkin)", "TDD (Test-Driven Development)","Contract Testing", "Functional Testing", "Regression Testing", "Unit Testing", "Smoke Testing", "Sanity Testing"],
+    "Testing Methodology" :["Behavior-Driven Development (BDD) ","Cucumber", "Gherkin", "(Test-Driven Development) TDD","Contract Testing", "Functional Testing", "Regression Testing", "Unit Testing", "Smoke Testing", "Sanity Testing"],
     
-    "Programming Languages": ["Java", "Python", "JavaScript/TypeScript", "C#", "SpecFlow"],
+    "Programming Languages": ["Java", "Python", "JavaScript","TypeScript", "C#", "SpecFlow"],
     
     "Databases & Performance Testing": ["Oracle SQL", "MySQL","JMeter", "Grafana - K6"],
     
-    "DevOps & CI/CD": ["Jenkins", "GitHub", "GitLab", "Bitbucket", "Docker", "Maven", "Gradle", "Version Control System (Git)"],
+    "DevOps & CI/CD": ["Jenkins", "GitHub", "GitLab", "Bitbucket", "Docker", "Maven", "Gradle", "Version Control (Git)"],
     
     "Full Stack & API Tools": ["HTML", "CSS", "JavaScript", "React", "JSON", "XML", "Splunk", "TCP", "Postman", "JUnit"],
   
-    "Cloud & OS": ["AWS (EC2, S3, ECR, ECS & Fargate)", "Azure DevOps", "MacOS"],
+    "Cloud & OS": ["AWS","EC2", "S3", "ECR", "ECS" , "Fargate", "Azure DevOps", "MacOS"],
 
     "Agile Methodologies": ["Scrum", "Kanban", "Sprint Planning", "Retrospectives", "Jira-Xray", "SDLC"]
 
