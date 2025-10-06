@@ -1,6 +1,6 @@
 /* BlogSection.css */
 .blog-section {
-  margin: 2rem 0;
+  margin: 0.8rem 0;
   position: relative;
 }
 
@@ -313,5 +313,129 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
+  }
+}
+
+/* Under Development Styles */
+.development-badge {
+  background: linear-gradient(135deg, #ff6b35, #f7931e);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-left: 1rem;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.under-development {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.development-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.development-icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-10px); }
+  60% { transform: translateY(-5px); }
+}
+
+.development-title {
+  color: #ffd423;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #ffd423, #ff6b35);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.development-message {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.development-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(26, 26, 32, 0.6);
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 212, 35, 0.1);
+  transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 212, 35, 0.3);
+  box-shadow: 0 4px 20px rgba(255, 212, 35, 0.1);
+}
+
+.feature-icon {
+  font-size: 1.5rem;
+}
+
+.stay-tuned {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #ffd423;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  background: #ffd423;
+  border-radius: 50%;
+  animation: pulseDot 1.5s infinite;
+}
+
+@keyframes pulseDot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.2); }
+}
+
+@media (max-width: 768px) {
+  .development-title {
+    font-size: 2rem;
+  }
+  
+  .development-features {
+    grid-template-columns: 1fr;
+  }
+  
+  .under-development {
+    padding: 2rem 1rem;
   }
 }

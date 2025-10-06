@@ -5,7 +5,7 @@
   border: 1px solid rgba(255, 212, 35, 0.1);
   border-radius: 32px;
   padding: 3rem;
-  margin: 2rem 0;
+  margin: 1.5rem 0 0.8rem 0;
   position: relative;
   overflow: hidden;
 }
@@ -430,6 +430,22 @@
   font-size: 1rem;
   margin: 0 0 1rem 0;
   line-height: 1.4;
+}
+
+.cert-details {
+  margin: 1rem 0;
+  padding: 0.8rem;
+  background: rgba(255, 212, 35, 0.05);
+  border-radius: 8px;
+  border-left: 3px solid #ffd423;
+}
+
+.cert-candidate,
+.cert-number {
+  color: #d4d4d8;
+  font-size: 0.9rem;
+  margin: 0.3rem 0;
+  font-family: 'Courier New', monospace;
 }
 
 .cert-year {

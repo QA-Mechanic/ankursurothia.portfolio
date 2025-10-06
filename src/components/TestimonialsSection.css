@@ -1,6 +1,6 @@
 /* TestimonialsSection.css */
 .testimonials-section {
-  margin: 2rem 0;
+  margin: 0.5rem 0 2rem 0;
   position: relative;
 }
 
@@ -285,7 +285,16 @@
 .author-company {
   color: #b8b8c4;
   font-size: 0.95rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.author-relationship {
+  color: #8a8a96;
+  font-size: 0.85rem;
+  font-style: italic;
   margin: 0;
+  padding-top: 0.3rem;
+  border-top: 1px solid rgba(255, 212, 35, 0.1);
 }
 
 .carousel-indicators {

@@ -7,28 +7,22 @@ export default function TestimonialsSection() {
 
   const testimonials = [
     {
-      text: "Ankur is a detail-oriented automation engineer and a fantastic team player. His expertise in test automation frameworks significantly improved our delivery pipeline.",
-      author: "Jane Doe",
-      position: "QA Lead",
-      company: "XYZ Corp",
-      avatar: "👩‍💼",
-      rating: 5
+      text: "Ankur is fun to work with and is full of new ideas. Comes with a different take on the current approaches and suggests new things. He is always ready to learn more and something new. He is a hard-working, talented and reliable team mate. A quick learner and does his tasks with minimal direction. He is technically sound possessing appreciable knowledge of JAVA, testNG, Cucumber-JVM.",
+      author: "Abhishek Awale",
+      position: "Director QA Engineering",
+      company: "Eightfold.ai | Ex - Amagi | Disney+Hotstar | Ridecell",
+      avatar: "👨‍�",
+      rating: 5,
+      relationship: "January 21, 2016, Abhishek managed Ankur directly"
     },
     {
-      text: "Delivered robust testing frameworks that improved our CI/CD pipeline. Ankur's mentoring skills helped our junior developers understand testing best practices.",
-      author: "John Smith",
-      position: "DevOps Manager",
-      company: "ABC Solutions",
-      avatar: "👨‍💻",
-      rating: 5
-    },
-    {
-      text: "Outstanding technical skills combined with excellent communication. Ankur's contract testing implementation saved us countless hours of debugging.",
-      author: "Sarah Wilson",
-      position: "Senior Developer",
-      company: "Tech Innovations Ltd",
-      avatar: "👩‍🔬",
-      rating: 5
+      text: "Ankur is a highly organized, goal oriented, independent and hard working perfectionist always ready to put all his energy and stamina to get the job done. Careful co-worker. Ankur can deliver under pressure, no slip-ups, ready to deal with difficult situations and solve the problems on time. It is fun working with Ankur.",
+      author: "Ratanpriya Shrivastava",
+      position: "Lead Software Engineer",
+      company: "Macys Systems & Technology Inc",
+      avatar: "�‍�",
+      rating: 5,
+      relationship: "January 21, 2016, Ratanpriya worked with Ankur on the same team"
     }
   ];
 
@@ -109,6 +103,11 @@ export default function TestimonialsSection() {
                     <p className="author-company">
                       {testimonials[currentTestimonial].company}
                     </p>
+                    {testimonials[currentTestimonial].relationship && (
+                      <p className="author-relationship">
+                        {testimonials[currentTestimonial].relationship}
+                      </p>
+                    )}
                   </div>
                 </div>
               </div>

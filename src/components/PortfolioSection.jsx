@@ -7,12 +7,11 @@ export default function PortfolioSection() {
 
   const projects = [
     {
-      name: "python_learning_codebase",
-      url: "https://github.com/QA-Mechanic/python_learning_codebase",
-      description: "Comprehensive Python learning repository with automation examples",
-      tech: ["Python", "Pytest", "Selenium"],
-      status: "Active",
-      stars: "⭐ 15"
+      name: "Ats_checker",
+      url: "https://github.com/QA-Mechanic/Ats_checker",
+      description: "An AI-powered ATS (Applicant Tracking System) resume analyzer that helps job seekers optimize their resumes for better keyword matching and ATS compatibility",
+      tech: ["React 18", "Vite", "TypeScript", "Tailwind CSS","Node.js"],
+      status: "Active"
     },
     {
       name: "rest-api-contract-testing",
@@ -20,23 +19,21 @@ export default function PortfolioSection() {
       description: "Contract testing framework using Pact for API validation",
       tech: ["JavaScript", "Pact", "Node.js"],
       status: "Completed",
-      stars: "⭐ 23"
+
     },
     {
       name: "takeHomeCalculator",
       url: "https://github.com/QA-Mechanic/takeHomeCalculator",
       description: "Take-home salary calculator with comprehensive tax calculations",
       tech: ["JavaScript", "React", "CSS"],
-      status: "Active",
-      stars: "⭐ 8"
+      status: "Active"
     },
     {
-      name: "python_learning",
+      name: "ankursurothia.portfolio",
       url: "https://github.com/QA-Mechanic/python_leraning",
       description: "Advanced Python concepts and automation practices",
-      tech: ["Python", "Docker", "CI/CD"],
-      status: "In Progress",
-      stars: "⭐ 12"
+      tech: ["React App", "TypeScript", "Tailwind CSS","Node.js"],
+      status: "In Progress"
     },
     {
       name: "RestAssured_Java_Framework",
@@ -44,7 +41,6 @@ export default function PortfolioSection() {
       description: "Complete API testing framework with RestAssured and TestNG",
       tech: ["Java", "RestAssured", "TestNG", "Maven"],
       status: "Completed",
-      stars: "⭐ 31"
     }
   ];
 
